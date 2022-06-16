@@ -11,3 +11,7 @@ resource "aws_s3_bucket" "examplebucket100" {
     mfa_delete = true
   }
 }
+
+resource "aws_s3_bucket" "examplebucket234" {
+  bucket = "examplebuckettftest234"
+}
